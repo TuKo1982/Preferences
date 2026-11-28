@@ -1,0 +1,22 @@
+; UniPrefs text module: lists an existing editor in UniPrefs.
+; Copy to Modules/<Name>.module. Hidden while the editor is missing.
+; ";" starts a comment. Name, Editor and Categories are required.
+
+; the CLI name (UniPrefs <Name>): the file name without .module, no spaces
+Name=Template
+; the list entry (default: Name)
+Title=Template
+; required: the module's own version, major.minor
+Version=0.1
+; the program started by the page's button, with PUBSCREEN=<screen>
+Editor=SYS:Prefs/Template
+; one to four headings, comma-separated: the usual ones are
+;   AmigaOS, System, Display, Look, Menus & Desktop, Requesters,
+;   Locale and time, Sound, Printing, Network, Datatypes
+; any other name gets a heading of its own
+Categories=Look
+; optional, shown by the Updates page: who wrote the module, the original software it is based on
+; ("-" for none), and one or two sentences of what it opens or sets
+Author=Your Name
+BasedOn=Template 1.0
+Description=Opens the Template editor.
